@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.h-40 {
+  height: 40px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+@media screen and (max-width: 1023px) {
+  .logo {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo {
+    display: none;
+  }
+}
