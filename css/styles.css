@@ -163,4 +163,8 @@
   .big-header {
     height: 126px;
   }
+
+  .big-navbars {
+    height: 80px;
+  }
 }
