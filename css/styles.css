@@ -15,6 +15,10 @@
   display: flex;
 }
 
+.h-300 {
+  height: 300px;
+}
+
 .h-105 {
   height: 105vh;
 }
@@ -25,6 +29,10 @@
 
 .h-88 {
   height: 88px;
+}
+
+.h-60 {
+  height: 60px;
 }
 
 .h-48 {
@@ -40,12 +48,24 @@
   justify-content: center;
 }
 
+.jc-between {
+  justify-content: space-between;
+}
+
 .ai-center {
   align-items: center;
 }
 
 .f-wrap {
   flex-wrap: wrap;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
 }
 
 /* ----------------------------  Font sizes  -------------------------------- */
@@ -63,6 +83,10 @@
   width: 100%;
 }
 
+.w-93 {
+  width: 93%;
+}
+
 .w-82 {
   width: 82%;
 }
@@ -74,6 +98,10 @@
 /* ----------------------------  Width in pixels  -------------------------------- */
 .w-100p {
   width: 100px;
+}
+
+.w-60p {
+  width: 60px;
 }
 
 .w-48p {
@@ -97,6 +125,14 @@
   background-color: yellow;
 }
 
+.bg-darksalmon {
+  background-color: rgba(255, 68, 34, 0.08);
+}
+
+.bg-somered {
+  background-color: #f42;
+}
+
 /* ----------------------------  Colors  -------------------------------- */
 
 .soft-red {
@@ -107,10 +143,19 @@
   color: rgb(173, 173, 173);
 }
 
+.white {
+  color: white;
+}
+/* ----------------------------  Margins  -------------------------------- */
+.ml-30 {
+  margin-left: 30%;
+}
+
 /* ----------------------------  Styles  -------------------------------- */
 
 .style-none {
   list-style: none;
+  text-decoration: none;
 }
 
 .fa-bars {
@@ -239,7 +284,6 @@
     float: left;
     width: 40%;
   }
-
 }
 
 @media screen and (min-width: 768px) {
@@ -260,7 +304,6 @@
 
   .item-3 {
     width: 100%;
-
   }
 }
 
@@ -272,3 +315,66 @@
   }
 }
 
+/* ----------------------------------------------------  Latest-funding Section  ----------------------------------------------------------- */
+.square-img {
+  top: 15px;
+  left: 15px;
+}
+
+.fund-title {
+  padding: 10.5px 16px 10.5px 84px;
+}
+
+.middle-item {
+  padding: 22px 0 22px 15px;
+  flex-direction: column;
+  border-bottom: 1px solid salmon;
+}
+
+.last-item {
+  padding: 22px 0 50px 15px;
+}
+
+.li-div {
+  overflow: hidden;
+}
+
+/* ----------------------------  Media Queries  -------------------------------- */
+
+/* ----------------------------  Mobile (XS to SM)  -------------------------------- */
+
+@media screen and (max-width: 767px) {
+  .funding-li {
+    width: 100%;
+    height: 235px;
+  }
+
+  .last-item {
+    padding: 15px 0 50px 15px;
+  }
+
+  .main-div-fund {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .funding-li {
+    width: 31%;
+  }
+}
+
+/* ----------------------------  (SM to LG)  -------------------------------- */
+@media screen and (max-width: 1023px) {
+  .go-away {
+    display: none;
+  }
+}
+
+/* ----------------------------  (SM to LG)  -------------------------------- */
+
+@media screen and (min-width: 1024px) {
+  .funding-li {
+    width: 23%;
+  }
+}
