@@ -3,15 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>TNW Cloned</title>
   </head>
   <body>
-    <header class="h-40 w-100">
-      <div class="logo w-15 h-40 bg-orange"></div>
-      <div class="navbars">
-        <div class="black-navbar"></div>
-        <div class="main-navbar"></div>
+    <header class="h-48 w-100 d-flex">
+      <div class="logo w-18 h-48 bg-orange"></div>
+      <div class="navbars h-48">
+        <div class="black-navbar d-flex">
+          <nav class="d-flex h-32 w-100 bg-black"></nav>
+        </div>
+        <div class="main-navbar d-flex">
+          <nav class="mobile-nav d-flex h-48 w-100 bg-beige">
+            <ul class="d-flex w-100p h-48">
+              <li class="style-none">
+                <a class="search-button w-48p h-48 d-flex ai-center jc-center"
+                  ><i class="fas fa-search fs-20 soft-gray"></i>
+                </a>
+              </li>
+              <li class="style-none">
+                <a class="toggle-button w-48p h-48 d-flex ai-center jc-center"
+                  ><i class="fas fa-bars fs-20 soft-red"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="desk-nav d-flex h-48 w-100 bg-beige"></nav>
+        </div>
       </div>
     </header>
   </body>

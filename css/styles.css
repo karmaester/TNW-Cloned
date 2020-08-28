@@ -3,30 +3,145 @@
   padding: 0;
 }
 
-.h-40 {
-  height: 40px;
+.d-inblock {
+  display: inline-block;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.h-48 {
+  height: 48px;
+}
+
+.h-32 {
+  height: 32px;
+}
+
+/* ----------------------------  Positions  -------------------------------- */
+.jc-center {
+  justify-content: center;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+/* ----------------------------  Font sizes  -------------------------------- */
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+/* ----------------------------  Width in percentage  -------------------------------- */
 
 .w-100 {
   width: 100%;
 }
 
-.w-15 {
-  width: 15%;
+.w-82 {
+  width: 82%;
 }
 
+.w-18 {
+  width: 18%;
+}
+
+/* ----------------------------  Width in pixels  -------------------------------- */
+.w-100p {
+  width: 100px;
+}
+
+.w-48p {
+  width: 48px;
+}
+
+/* ----------------------------  Backgrounds  -------------------------------- */
 .bg-orange {
   background-color: orange;
 }
 
+.bg-beige {
+  background-color: peachpuff;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+/* ----------------------------  Colors  -------------------------------- */
+
+.soft-red {
+  color: rgb(255, 59, 59);
+}
+
+.soft-gray {
+  color: rgb(173, 173, 173);
+}
+
+/* ----------------------------  Styles  -------------------------------- */
+
+.style-none {
+  list-style: none;
+}
+
+.fa-bars {
+}
+
+/* ----------------------------  Header  -------------------------------- */
+.mobile-nav-button {
+}
+
+/* ----------------------------  Media Queries  -------------------------------- */
+
+/* ----------------------------  Mobile (XS to SM)  -------------------------------- */
+
+@media screen and (max-width: 767px) {
+  .desk-nav {
+    display: none;
+  }
+
+  .black-navbar {
+    display: none;
+  }
+
+  .mobile-nav {
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .logo {
+    height: 80px;
+  }
+}
+
+/* ----------------------------  (SM to LG)  -------------------------------- */
+
 @media screen and (max-width: 1023px) {
   .logo {
     display: block;
+  }
+
+  .navbars {
+    width: 82%;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .logo {
     display: none;
+  }
+
+  .navbars {
+    width: 100%;
   }
 }
