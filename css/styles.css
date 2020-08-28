@@ -15,6 +15,18 @@
   display: flex;
 }
 
+.h-105 {
+  height: 105vh;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-88 {
+  height: 88px;
+}
+
 .h-48 {
   height: 48px;
 }
@@ -190,8 +202,8 @@
 @media screen and (min-width: 768px) {
   .cover {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    height: 107vh;
+    grid-template-rows: repeat(2, 1fr);
+    height: 97vh;
   }
 
   .bigger {
@@ -199,3 +211,64 @@
     grid-column: 1/3;
   }
 }
+
+/* ----------------------------------------------------  News Section  ----------------------------------------------------------- */
+
+.main-container {
+  margin: 0 auto;
+  max-width: 1190px;
+}
+
+/* ----------------------------  Media Queries  -------------------------------- */
+
+/* ----------------------------  Mobile (XS to SM)  -------------------------------- */
+
+@media screen and (max-width: 767px) {
+  .item-1 {
+    float: left;
+    width: 75px;
+    height: 75px;
+  }
+
+  .item-2 {
+    float: right;
+    width: 85%;
+  }
+
+  .item-3 {
+    float: left;
+    width: 40%;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .news-li {
+    width: 33%;
+    height: 30vw;
+  }
+
+  .item-1 {
+    display: block;
+    width: 100%;
+    height: 65%;
+  }
+
+  .item-2 {
+    width: 100%;
+  }
+
+  .item-3 {
+    width: 100%;
+
+  }
+}
+
+/* ----------------------------  (SM to LG)  -------------------------------- */
+
+@media screen and (min-width: 1024px) {
+  .news-li {
+    width: 25%;
+  }
+}
+
