@@ -378,3 +378,67 @@
     width: 23%;
   }
 }
+
+/* ----------------------------------------------------  Related Section  ----------------------------------------------------------- */
+.square-img {
+  top: 15px;
+  left: 15px;
+}
+
+.fund-title {
+  padding: 10.5px 16px 10.5px 84px;
+}
+
+.middle-item {
+  padding: 22px 0 22px 15px;
+  flex-direction: column;
+  border-bottom: 1px solid salmon;
+}
+
+.last-item {
+  padding: 22px 0 50px 15px;
+}
+
+.li-div {
+  overflow: hidden;
+}
+
+/* ----------------------------  Media Queries  -------------------------------- */
+
+/* ----------------------------  Mobile (XS to SM)  -------------------------------- */
+
+@media screen and (max-width: 767px) {
+  .funding-li {
+    width: 100%;
+    height: 235px;
+  }
+
+  .last-item {
+    padding: 15px 0 50px 15px;
+  }
+
+  .main-div-fund {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .funding-li {
+    width: 31%;
+  }
+}
+
+/* ----------------------------  (SM to LG)  -------------------------------- */
+@media screen and (max-width: 1023px) {
+  .go-away {
+    display: none;
+  }
+}
+
+/* ----------------------------  (SM to LG)  -------------------------------- */
+
+@media screen and (min-width: 1024px) {
+  .funding-li {
+    width: 23%;
+  }
+}
