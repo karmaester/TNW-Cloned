@@ -125,7 +125,7 @@
     justify-content: flex-end;
   }
   .tickets {
-    height: 76px;
+    height: 60px;
   }
 }
 
@@ -139,7 +139,7 @@
   }
 
   .tickets {
-    height: 46px;
+    height: 30px;
   }
 }
 
@@ -165,7 +165,7 @@
   }
 
   .big-header {
-    height: 126px;
+    height: 110px;
   }
 
   .big-navbars {
@@ -191,7 +191,7 @@
   .cover {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    height: 100vh;
+    height: 107vh;
   }
 
   .bigger {
