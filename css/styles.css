@@ -28,6 +28,10 @@
   align-items: center;
 }
 
+.f-wrap {
+  flex-wrap: wrap;
+}
+
 /* ----------------------------  Font sizes  -------------------------------- */
 .fs-30 {
   font-size: 30px;
@@ -73,6 +77,10 @@
   background-color: black;
 }
 
+.bg-yellow {
+  background-color: yellow;
+}
+
 /* ----------------------------  Colors  -------------------------------- */
 
 .soft-red {
@@ -112,6 +120,9 @@
   .mobile-nav {
     justify-content: flex-end;
   }
+  .tickets {
+    height: 76px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -121,6 +132,10 @@
 
   .logo {
     height: 80px;
+  }
+
+  .tickets {
+    height: 46px;
   }
 }
 
@@ -143,5 +158,9 @@
 
   .navbars {
     width: 100%;
+  }
+
+  .big-header {
+    height: 126px;
   }
 }
