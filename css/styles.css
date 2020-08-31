@@ -17,6 +17,10 @@
   display: grid;
 }
 
+.nostyle-li {
+  list-style: none;
+}
+
 .d-flex {
   display: flex;
 }
@@ -91,6 +95,11 @@
 .direction-column {
   flex-direction: column;
 }
+
+.jc-around {
+  justify-content: space-around;
+}
+
 
 /* ----------------------------  Font sizes  -------------------------------- */
 .fs-30 {
@@ -188,6 +197,10 @@
   color: white;
 }
 
+.gray {
+  color: #555;
+}
+
 /* ----------------------------  Margins  -------------------------------- */
 
 .ml-30 {
@@ -210,6 +223,25 @@
 
 header {
   position: fixed;
+}
+
+.first-li {
+  width: 30%;
+  font-size: 13px;
+}
+
+.drop-btn {
+  border: 0;
+}
+
+.dropdown-content {
+  display: none;
+  width: 200px;
+  height: 50px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /* ----------------------------  Media Queries  -------------------------------- */
