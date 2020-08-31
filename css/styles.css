@@ -29,10 +29,6 @@
   display: grid;
 }
 
-.nostyle-li {
-  list-style: none;
-}
-
 .d-flex {
   display: flex;
 }
@@ -70,6 +66,10 @@
 }
 
 /* ----------------------------  Height in percentages  -------------------------------- */
+
+.h-100 {
+  height: 100%;
+}
 
 .h-65 {
   height: 65%;
@@ -141,6 +141,10 @@
   font-size: 16px;
 }
 
+.fs-14 {
+  font-size: 14px;
+}
+
 .fs-13 {
   font-size: 13px;
 }
@@ -161,6 +165,13 @@
 
 .w-82 {
   width: 82%;
+}
+.w-50 {
+  width: 50%;
+}
+
+.w-30 {
+  width: 30%;
 }
 
 .w-18 {
@@ -245,8 +256,16 @@
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 .bold {
   font-weight: bold;
+=======
+.btn {
+  border: 0;
+}
+
+.fa-bars {
+>>>>>>> bd293d033cd0818fb9cdcbf068134858feab8bc9
 }
 
 /* ---------------------------------------------------  Header  ------------------------------------------------------------------- */
@@ -258,15 +277,6 @@ header {
   z-index: 10;
 }
 
-.first-li {
-  width: 30%;
-  font-size: 13px;
-}
-
-.drop-btn {
-  border: 0;
-}
-
 .dropdown-content {
   display: none;
   width: 200px;
@@ -276,6 +286,15 @@ header {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.color-change:hover {
+  color: white;
+}
+
+.color-change2:hover {
+  color: black;
+}
+
 
 /* ----------------------------  Media Queries  -------------------------------- */
 
