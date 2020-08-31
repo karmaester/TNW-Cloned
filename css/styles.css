@@ -410,22 +410,29 @@ header {
 }
 
 /* ----------------------------------------------------  Related Section  ----------------------------------------------------------- */
+.related-article {
+  
+}
 
 .related {
-  height: 750px;
+  height: 1145px;
 }
 
 .related-title {
-  top: 750px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
-.related-bg {
-  align-items: flex-end;
+.related-title2 {
+  margin-top: 3px;
 }
 
 .latest-img {
   width: 96px;
   height: 96px;
+  flex-basis: 96px;
+  flex-shrink: 0;
 }
 
 /* ----------------------------  Media Queries  -------------------------------- */
@@ -434,7 +441,7 @@ header {
 
 @media screen and (max-width: 767px) {
   .related-bg {
-    height: 70%;
+    height: 55%;
   }
 
   .related {
@@ -454,10 +461,12 @@ header {
   .related-article {
     justify-content: space-between;
   }
+
 }
 
 /* ----------------------------  (SM to LG)  -------------------------------- */
 @media screen and (max-width: 1023px) {
+  
 }
 
 /* ----------------------------  (SM to LG)  -------------------------------- */
