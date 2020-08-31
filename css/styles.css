@@ -51,6 +51,16 @@
   height: 32px;
 }
 
+/* ----------------------------  Height in percentages  -------------------------------- */
+
+.h-65 {
+  height: 65%;
+}
+
+.h-35 {
+  height: 35%;
+}
+
 /* ----------------------------  Positions  -------------------------------- */
 .jc-center {
   justify-content: center;
@@ -105,7 +115,6 @@
 
 /* ----------------------------  Width in pixels  -------------------------------- */
 
-
 .w-100p {
   width: 100px;
 }
@@ -129,6 +138,10 @@
 
 .bg-black {
   background-color: black;
+}
+
+.bg-l-black {
+  background-color: rgb(31, 31, 31);
 }
 
 .bg-yellow {
@@ -156,7 +169,9 @@
 .white {
   color: white;
 }
+
 /* ----------------------------  Margins  -------------------------------- */
+
 .ml-30 {
   margin-left: 30%;
 }
@@ -195,6 +210,7 @@ header {
   .mobile-nav {
     justify-content: flex-end;
   }
+
   .tickets {
     height: 60px;
   }
@@ -329,7 +345,7 @@ header {
   }
 }
 
-/* ----------------------------------------------------  Latest-funding Section  ----------------------------------------------------------- */
+/* -----------------------------------------  Latest-funding Section  ------------------------------------------------------- */
 .square-img {
   top: 15px;
   left: 15px;
@@ -405,7 +421,7 @@ header {
 
 @media screen and (max-width: 767px) {
   .related-bg {
-    height: 70%
+    height: 70%;
   }
 
   .related {
@@ -417,8 +433,9 @@ header {
   .related {
     width: 48%;
   }
+
   .related-bg {
-    height: 40%
+    height: 40%;
   }
 
   .related-article {
@@ -428,7 +445,6 @@ header {
 
 /* ----------------------------  (SM to LG)  -------------------------------- */
 @media screen and (max-width: 1023px) {
-  
 }
 
 /* ----------------------------  (SM to LG)  -------------------------------- */
@@ -439,6 +455,12 @@ header {
   }
 
   .related-bg {
-    height: 35%
+    height: 35%;
   }
+}
+
+/* ------------------------------------------------  Footer  ------------------------------------------------------- */
+
+footer {
+  height: 270px;
 }
