@@ -17,6 +17,18 @@
   margin-bottom: 15px;
 }
 
+.ml-15 {
+  margin-left: 15px;
+}
+
+.pad-around {
+  padding: 5px 20px;
+}
+
+.pad-left-30 {
+  padding-left: 30px;
+}
+
 .d-block {
   display: block;
 }
@@ -27,10 +39,6 @@
 
 .d-grid {
   display: grid;
-}
-
-.nostyle-li {
-  list-style: none;
 }
 
 .d-flex {
@@ -84,6 +92,10 @@
 }
 
 /* ----------------------------  Positions  -------------------------------- */
+.jc-around {
+  justify-content: space-around;
+}
+
 .jc-center {
   justify-content: center;
 }
@@ -141,6 +153,10 @@
   font-size: 16px;
 }
 
+.fs-14 {
+  font-size: 14px;
+}
+
 .fs-13 {
   font-size: 13px;
 }
@@ -161,6 +177,18 @@
 
 .w-82 {
   width: 82%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-25 {
+  width: 25%;
 }
 
 .w-18 {
@@ -249,6 +277,10 @@
   font-weight: bold;
 }
 
+.btn {
+  border: 0;
+}
+
 /* ---------------------------------------------------  Header  ------------------------------------------------------------------- */
 .mobile-nav-button {
 }
@@ -275,6 +307,24 @@ header {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.color-change:hover {
+  color: white;
+}
+
+.color-change2:hover {
+  color: black;
+}
+
+.get-ticket {
+  background-color: #0cc;
+  border-radius: 3px;
+  width: 132px;
+}
+
+.get-ticket:hover {
+  background-color: #90c;
 }
 
 /* ----------------------------  Media Queries  -------------------------------- */
