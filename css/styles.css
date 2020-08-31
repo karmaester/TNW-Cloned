@@ -419,6 +419,10 @@ header {
   top: 750px;
 }
 
+.related-bg {
+  align-items: flex-end;
+}
+
 .latest-img {
   width: 96px;
   height: 96px;
