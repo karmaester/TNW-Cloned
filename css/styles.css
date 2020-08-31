@@ -661,6 +661,95 @@ header {
   }
 }
 
+/* ----------------------------------------------------  Latest deals section  ----------------------------------------------------------- */
+
+.bg-1-2 {
+  background-image: url("https://cdnp2.stackassets.com/d2af7f1cd1b3e01e4b9dd8ad7a5c362acd1f6d60/store/49052f9477ad5cc5067aa29931f1cdd3934b2461664e2f540a2d94da9cf4/sale_36849_primary_image.jpg");
+}
+
+.bg-2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Cases-514x270.jpg");
+}
+
+.bg-3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/leadership-startup-gq-516x270.png");
+}
+
+.bg-4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/social-responsibility-gq-516x270.png");
+}
+
+.bg-5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg");
+}
+
+.bg-6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/image-1-10-516x270.png");
+}
+
+.bg-7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/10/iPad-Pro-Featured-516x270.jpg");
+}
+
+.bg-8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/Elon-Musk-candy-Wonka-hed-513x270.jpg");
+}
+
+.deals-li {
+}
+
+.bg-deals {
+  height: 65%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* ----------------------------  Media Queries  -------------------------------- */
+
+/* ----------------------------  Mobile (XS to SM)  -------------------------------- */
+
+@media screen and (max-width: 767px) {
+  .deals-li {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .deals-li {
+    width: 30%;
+    height: 285px;
+  }
+
+  .item-1 {
+    z-index: 30;
+  }
+
+  .discount {
+    transform: rotate(45deg);
+    background-image: url("images/disc.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #000;
+    display: block;
+    height: 80px;
+    overflow: hidden;
+    pointer-events: none;
+    right: 0;
+    top: 0;
+    width: 85px;
+    z-index: 10;
+  }
+}
+
+/* ----------------------------  (SM to LG)  -------------------------------- */
+
+@media screen and (min-width: 1024px) {
+  .deals-li {
+    width: 22%;
+  }
+}
+
 /* ------------------------------------------------  Footer  ------------------------------------------------------- */
 
 footer {
