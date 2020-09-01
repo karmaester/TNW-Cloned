@@ -391,20 +391,23 @@ header {
   .min-w-611 {
     min-width: 611px;
   }
-  
+
   .min-w-380 {
     min-width: 380px;
   }
-  
+
   .min-w-260 {
     min-width: 260px;
   }
-
 }
 
 /* ----------------------------  (SM to LG)  -------------------------------- */
 
-@media screen and (max-width: 1114px){
+@media screen and (max-width: 1114px) {
+  .main-container {
+    width: 97%;
+    margin: 0 auto;
+  }
 
   .hide {
     display: none;
@@ -414,8 +417,6 @@ header {
     justify-content: flex-end;
   }
 }
-
-
 
 @media screen and (max-width: 1023px) {
   .logo {
@@ -597,13 +598,14 @@ header {
 
   .item-2 {
     float: right;
-    width: 85%;
+    width: calc(100% - 75px);
+    padding-left: 10px;
   }
 
   .item-3 {
     float: left;
     width: 40%;
-    margin-left: 10px;
+    padding-left: 10px;
   }
 
   .news-li {
