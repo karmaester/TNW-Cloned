@@ -297,18 +297,6 @@
 .mobile-nav-button {
 }
 
-.min-w-720 {
-  min-width: 720px;
-}
-
-.min-w-380 {
-  min-width: 380px;
-}
-
-.min-w-260 {
-  min-width: 260px;
-}
-
 .bg-gradiant {
   background: linear-gradient(to bottom right, #c09, #f42 85%);
 }
@@ -399,9 +387,35 @@ header {
     width: 60%;
     justify-content: flex-start;
   }
+
+  .min-w-611 {
+    min-width: 611px;
+  }
+  
+  .min-w-380 {
+    min-width: 380px;
+  }
+  
+  .min-w-260 {
+    min-width: 260px;
+  }
+
 }
 
 /* ----------------------------  (SM to LG)  -------------------------------- */
+
+@media screen and (max-width: 1114px){
+
+  .hide {
+    display: none;
+  }
+
+  .search {
+    justify-content: flex-end;
+  }
+}
+
+
 
 @media screen and (max-width: 1023px) {
   .logo {
