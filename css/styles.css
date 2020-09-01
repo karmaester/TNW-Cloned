@@ -177,6 +177,10 @@
   font-size: 13px;
 }
 
+.fs-12 {
+  font-size: 12px;
+}
+
 .fs-10 {
   font-size: 10px;
 }
@@ -703,6 +707,16 @@ header {
 @media screen and (min-width: 768px) {
   .funding-li {
     width: 31%;
+  }
+
+  .more-info {
+    max-width: 40%;
+    flex-direction: row;
+  }
+
+  .more-info>li {
+    padding-right: 20px;
+    border-right: 2px solid rgb(255, 59, 59); 
   }
 }
 
