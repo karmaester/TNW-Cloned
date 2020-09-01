@@ -709,17 +709,70 @@ header {
 }
 
 /* ----------------------------------------------------  Related Section  ----------------------------------------------------------- */
-.related-article {
+.bg-0-1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
+}
+
+.bg-2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Cases-514x270.jpg");
+}
+
+.bg-3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/leadership-startup-gq-516x270.png");
+}
+
+.bg-4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/social-responsibility-gq-516x270.png");
+}
+
+.bg-5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg");
+}
+
+.bg-6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/image-1-10-516x270.png");
+}
+
+.bg-7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/10/iPad-Pro-Featured-516x270.jpg");
+}
+
+.bg-8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/Elon-Musk-candy-Wonka-hed-513x270.jpg");
+}
+
+.bg-9 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/Elon-Musk-candy-Wonka-hed-513x270.jpg");
+}
+
+.gradient {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 0.9587185215883228) 21%,
+    rgba(3, 6, 6, 0.42930675688244047) 57%,
+    rgba(29, 29, 50, 0.5777661406359419) 91%
+  );
+  bottom: 0;
+  left: 0;
 }
 
 .related {
-  height: 1145px;
+  height: 680px;
+}
+
+.related-bg {
+  height: 60%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .related-title {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
+  padding: 0 15px 15px 15px;
 }
 
 .related-title2 {
