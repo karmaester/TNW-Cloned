@@ -104,6 +104,10 @@
 }
 
 /* ----------------------------  Positions  -------------------------------- */
+.z5 {
+  z-index: 5;
+}
+
 .jc-around {
   justify-content: space-around;
 }
@@ -294,8 +298,6 @@
 }
 
 /* ---------------------------------------------------  Header  ------------------------------------------------------------------- */
-.mobile-nav-button {
-}
 
 .bg-gradiant {
   background: linear-gradient(to bottom right, #c09, #f42 85%);
@@ -303,7 +305,6 @@
 
 header {
   position: fixed;
-  z-index: 10;
 }
 
 .logo {
@@ -400,11 +401,10 @@ header {
     min-width: 260px;
   }
 
-  .tnw-logo{
+  .tnw-logo {
     height: 20%;
     padding-left: 8px;
   }
-
 }
 
 /* ----------------------------  (SM to LG)  -------------------------------- */
@@ -425,7 +425,6 @@ header {
 }
 
 @media screen and (max-width: 1023px) {
-
   .navbars {
     width: calc(100% - 106px);
   }
@@ -845,7 +844,7 @@ header {
   }
 
   .item-1 {
-    z-index: 30;
+    z-index: 0;
   }
 
   .discount {
@@ -856,13 +855,14 @@ header {
     right: 0;
     top: 0;
     width: 85px;
-    z-index: 10;
+    z-index: 20;
   }
 
   .disc {
     transform: rotate(45deg);
     margin-left: 29px;
     padding-top: 24px;
+    font-size: 12px;
   }
 }
 
