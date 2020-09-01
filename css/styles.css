@@ -683,25 +683,6 @@ header {
   padding: 10.5px 16px 10.5px 84px;
 }
 
-.middle li a {
-  text-decoration: none;
-}
-
-.middle li::before {
-  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: red; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
-}
-
-.middle-item {
-  padding: 15px 0 15px 15px;
-  flex-direction: column;
-  border-bottom: 1px solid rgb(187, 184, 184);
-}
-
 .last-item {
   padding: 22px 0 50px 15px;
 }
@@ -743,9 +724,9 @@ header {
     flex-direction: row;
   }
 
-  .more-info>li {
+  .more-info > li {
     padding-right: 20px;
-    border-right: 2px solid rgb(255, 59, 59); 
+    border-right: 2px solid rgb(255, 59, 59);
   }
 }
 
@@ -814,7 +795,7 @@ header {
 }
 
 .related {
-  height: 680px;
+  height: 750px;
 }
 
 .related-bg {
@@ -840,6 +821,26 @@ header {
   height: 96px;
   flex-basis: 96px;
   flex-shrink: 0;
+}
+
+.middle {
+  text-decoration: none;
+}
+
+.middle li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin-bottom: -1em;
+}
+
+.middle-item {
+  padding: 15px 0 15px 15px;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(187, 184, 184, 0.404);
 }
 
 /* ----------------------------  Media Queries  -------------------------------- */
