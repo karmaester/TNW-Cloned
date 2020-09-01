@@ -251,7 +251,7 @@
 }
 
 .bg-yellow {
-  background-color: yellow;
+  background-color: #fd3;
 }
 
 .bg-darksalmon {
@@ -324,6 +324,10 @@
 .hard {
   font-weight: 900;
   margin: 20px auto 20px auto;
+}
+
+.f-w-900 {
+  font-weight: 900;
 }
 
 .btn {
@@ -461,6 +465,10 @@ header {
   .navbars {
     width: calc(100% - 106px);
   }
+
+  .gradient-logo {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -516,6 +524,21 @@ header {
   font-size: 20px;
 }
 
+.gradient-logo {
+  background: rgb(204, 0, 153);
+  background: linear-gradient(
+    170deg,
+    rgba(204, 0, 153, 1) 0%,
+    rgba(255, 68, 34, 0.8522759445575105) 26%,
+    rgba(29, 29, 50, 0.5777661406359419) 91%
+  );
+}
+
+.main-logo img {
+  height: 115px;
+  padding: 15px;
+}
+
 /* ----------------------------  Media Queries  -------------------------------- */
 
 /* ----------------------------  Mobile (XS to SM)  -------------------------------- */
@@ -550,7 +573,7 @@ header {
   }
 
   .cover div {
-    margin: 0 5px 10px 5px;
+    margin: 0 5px 10px 0;
   }
 
   .bigger {
@@ -619,6 +642,10 @@ header {
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+
+.news-li {
+  margin: auto 15px 25px 15px;
 }
 
 /* ----------------------------  Media Queries  -------------------------------- */
@@ -993,6 +1020,10 @@ header {
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+
+.deals-li {
+  margin: auto 15px 25px 15px;
 }
 
 /* ----------------------------  Media Queries  -------------------------------- */
