@@ -25,8 +25,12 @@
   padding: 5px 20px;
 }
 
-.pad-left-30 {
-  padding-left: 30px;
+.pad-left-15 {
+  padding-left: 15px;
+}
+
+.pad-right-15 {
+  padding-right: 15px;
 }
 
 .d-block {
@@ -43,6 +47,10 @@
 
 .d-flex {
   display: flex;
+}
+
+.shrink {
+  flex-shrink: 0;
 }
 
 .h-300 {
@@ -130,10 +138,6 @@
 
 .direction-column {
   flex-direction: column;
-}
-
-.jc-around {
-  justify-content: space-around;
 }
 
 .pb-30 {
@@ -238,6 +242,10 @@
   background-color: #f42;
 }
 
+.bg-white {
+  background-color: white;
+}
+
 /* ----------------------------  Colors  -------------------------------- */
 
 .soft-red {
@@ -285,9 +293,30 @@
 .mobile-nav-button {
 }
 
+.min-w-720 {
+  min-width: 720px;
+}
+
+.min-w-380 {
+  min-width: 380px;
+}
+
+.min-w-260 {
+  min-width: 260px;
+}
+
+
+.bg-gradiant {
+  background:linear-gradient(to bottom right,#c09,#f42 85%);
+}
+
 header {
   position: fixed;
   z-index: 10;
+}
+
+.logo {
+  width: 106px;
 }
 
 .first-li {
@@ -320,7 +349,7 @@ header {
 .get-ticket {
   background-color: #0cc;
   border-radius: 3px;
-  width: 132px;
+  min-width: 132px;
 }
 
 .get-ticket:hover {
@@ -347,6 +376,11 @@ header {
   .tickets {
     height: 60px;
   }
+
+  .tnw-logo {
+    height: 35%;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -360,6 +394,8 @@ header {
 
   .tickets {
     height: 30px;
+    width: 60%;
+    justify-content: flex-start;
   }
 }
 
@@ -367,7 +403,6 @@ header {
 
 @media screen and (max-width: 1023px) {
   .logo {
-    display: block;
   }
 
   .navbars {
@@ -391,6 +426,11 @@ header {
   .big-navbars {
     height: 80px;
   }
+
+  .tickets {
+    width: 97%;
+  }
+
 }
 
 /* ----------------------------------------------------  Cover Section  ----------------------------------------------------------- */
