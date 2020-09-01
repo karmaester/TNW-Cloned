@@ -499,6 +499,19 @@ header {
   z-index: 30;
 }
 
+.social li {
+  background-color: rgb(63, 60, 60);
+  margin: auto 8px 25px 8px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  border-color: rgb(63, 60, 60);
+}
+
+.low-social li {
+  margin: 10px 8px auto 8px;
+}
+
 .cover ul li {
   margin-right: 5px;
 }
@@ -957,10 +970,6 @@ header {
 }
 
 /* ----------------------------  (SM to LG)  -------------------------------- */
-@media screen and (max-width: 1023px) {
-}
-
-/* ----------------------------  (SM to LG)  -------------------------------- */
 
 @media screen and (min-width: 1024px) {
   .related {
@@ -1085,25 +1094,12 @@ footer {
   height: 257px;
 }
 
-.social li {
-  background-color: rgb(63, 60, 60);
-  margin: auto 8px 25px 8px;
-  font-size: 20px;
-  padding: 10px;
-  border-radius: 30px;
-  border-color: rgb(63, 60, 60);
-}
-
 .social li:hover {
   background-color: black;
 }
 
 .lo {
   padding: 0 4px;
-}
-
-.low-social li {
-  margin: 10px 8px auto 8px;
 }
 
 .legal img {
