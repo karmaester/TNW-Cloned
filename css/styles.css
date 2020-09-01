@@ -305,9 +305,8 @@
   min-width: 260px;
 }
 
-
 .bg-gradiant {
-  background:linear-gradient(to bottom right,#c09,#f42 85%);
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
 }
 
 header {
@@ -380,7 +379,6 @@ header {
   .tnw-logo {
     height: 35%;
   }
-
 }
 
 @media screen and (min-width: 768px) {
@@ -406,7 +404,7 @@ header {
   }
 
   .navbars {
-    width: 82%;
+    width: calc(100% - 106px);
   }
 }
 
@@ -430,7 +428,6 @@ header {
   .tickets {
     width: 97%;
   }
-
 }
 
 /* ----------------------------------------------------  Cover Section  ----------------------------------------------------------- */
