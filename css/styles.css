@@ -783,35 +783,37 @@ header {
   background-image: url("https://cdnp2.stackassets.com/d2af7f1cd1b3e01e4b9dd8ad7a5c362acd1f6d60/store/49052f9477ad5cc5067aa29931f1cdd3934b2461664e2f540a2d94da9cf4/sale_36849_primary_image.jpg");
 }
 
-.bg-2 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Cases-514x270.jpg");
+.bg-2-2 {
+  background-image: url("https://cdnp0.stackassets.com/7963f2e18379b178b6f028289b23c1a201fa5d01/store/4dd4ed1c0124f4b5a08261e321170102fd10c72d9caabd5286902ddf6625/sale_36919_primary_image.jpg");
 }
 
-.bg-3 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/leadership-startup-gq-516x270.png");
+.bg-3-2 {
+  background-image: url("https://cdnp2.stackassets.com/a05e77423f3849b7fb5e07c8c02c4c3701ddc40c/store/9a96d014fc94b5612887f31817a06131a6e3ff90e98605b0438084415b25/product_47836_product_shots2.jpg");
 }
 
-.bg-4 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/social-responsibility-gq-516x270.png");
+.bg-4-2 {
+  background-image: url("https://cdnp2.stackassets.com/30b8626d6307b0a25033f8be6481a19b3f3cb2bf/store/d0129dd349da2b9ef2e58fab523b05db640c94eec79f01fe84158d7660bc/sale_21597_primary_image.jpg");
 }
 
-.bg-5 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg");
+.bg-5-2 {
+  background-image: url("https://cdnp1.stackassets.com/83b8740c47d610dc01966c19173ee0fd0ee06d1d/store/491265567a22684528eb07c8401d2dcdae5bed9d00dd8bd4d92b286b6163/sale_37000_primary_image.jpg");
 }
 
-.bg-6 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/image-1-10-516x270.png");
+.bg-6-2 {
+  background-image: url("https://cdnp1.stackassets.com/85ad45fd2d5e7c9465c984fc7e8aceff565a0e9f/store/e613213f7ea8da7e092f5ec3aa4be6d42ff36736d6f49b2a5042e5bed9e4/sale_38683_primary_image.jpg");
 }
 
-.bg-7 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/10/iPad-Pro-Featured-516x270.jpg");
+.bg-7-2 {
+  background-image: url("https://cdnp1.stackassets.com/0c0dd3e2584d830cd20ffd96885a9311f069ca09/store/09326714b507a4546a898c58ff62d01c4f634bd02451a4a1e51d8b1de60a/sale_27983_primary_image.jpg");
 }
 
-.bg-8 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/Elon-Musk-candy-Wonka-hed-513x270.jpg");
+.bg-8-2 {
+  background-image: url("https://cdnp0.stackassets.com/a875072fa31f35279ce85438b376249c54eca996/store/8534f1826bec31d741297d74ee8a30edc0f492f8f74cd08aa4ed0103d42a/sale_14523_primary_image.jpg");
 }
 
-.deals-li {
+.old-price {
+  text-decoration: line-through;
+  margin-right: 5px;
 }
 
 .bg-deals {
