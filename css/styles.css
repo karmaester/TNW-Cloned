@@ -312,6 +312,10 @@
 
 /* ----------------------------  Styles  -------------------------------- */
 
+.gap {
+  gap: 35px;
+}
+
 .style-none {
   list-style: none;
   text-decoration: none;
@@ -656,10 +660,6 @@ header {
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-}
-
-.news-li {
-  margin: auto 15px 25px 15px;
 }
 
 /* ----------------------------  Media Queries  -------------------------------- */
