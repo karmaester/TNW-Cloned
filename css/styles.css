@@ -5,6 +5,10 @@
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
 
+.hide {
+  overflow: hidden;
+}
+
 .mt-10 {
   margin-top: 10px;
 }
@@ -585,10 +589,16 @@ header {
   .item-3 {
     float: left;
     width: 40%;
+    margin-left: 10px;
   }
 
   .news-li {
     margin-bottom: 25px;
+  }
+
+  .discount,
+  .disc {
+    display: none;
   }
 }
 
@@ -800,6 +810,12 @@ header {
   .deals-li {
     margin-bottom: 28px;
   }
+
+  .bg-deals {
+    float: left;
+    width: 75px;
+    height: 75px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -813,19 +829,20 @@ header {
   }
 
   .discount {
-    transform: rotate(45deg);
-    background-image: url("images/disc.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    color: #000;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    background-color: #ffe703;
     display: block;
-    height: 80px;
-    overflow: hidden;
-    pointer-events: none;
+    height: 86px;
     right: 0;
     top: 0;
     width: 85px;
     z-index: 10;
+  }
+
+  .disc {
+    transform: rotate(45deg);
+    margin-left: 29px;
+    padding-top: 24px;
   }
 }
 
