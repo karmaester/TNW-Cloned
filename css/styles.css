@@ -759,36 +759,68 @@ header {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
 }
 
-.bg-2 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Cases-514x270.jpg");
+.bg-0-2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/tiktok-368x276.png");
 }
 
-.bg-3 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/leadership-startup-gq-516x270.png");
+.bg-0-0-2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/ios-iphone-ipad-youtube-picture-in-picture.png");
 }
 
-.bg-4 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/social-responsibility-gq-516x270.png");
+.bg-0-3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/featured_logitech-e1598944082331-368x276.png");
 }
 
-.bg-5 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg");
+.bg-0-0-3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/HAG-Capisco-2-of-2.jpg");
 }
 
-.bg-6 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/image-1-10-516x270.png");
+.bg-0-4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/WatchOut-368x276.jpg");
 }
 
-.bg-7 {
+.bg-0-0-4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Untitled-design-10.jpg");
+}
+
+.bg-0-5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/handshake-emoji-368x276.png");
+}
+
+.bg-0-0-5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/a-female-office-worker-at-the-table-holding-papers-with-diagrams.jpg");
+}
+
+.bg-0-6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/106909103_10101777330197904_2889321509499508446_o-1-368x276.jpg");
+}
+
+.bg-0-0-6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Featured-Image-The-Next-Web.jpg");
+}
+
+.bg-0-7 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/10/iPad-Pro-Featured-516x270.jpg");
 }
 
-.bg-8 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/Elon-Musk-candy-Wonka-hed-513x270.jpg");
+.bg-0-0-7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/corona_news-6_blue.gif");
 }
 
-.bg-9 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/Elon-Musk-candy-Wonka-hed-513x270.jpg");
+.bg-0-8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Shift-launch-cars-evs-future-polestar-electric-cars-driving-mobility-368x276.png");
+}
+
+.bg-0-0-8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric.png");
+}
+
+.bg-0-9 {
+  background-image: url("https://i.ytimg.com/vi/1oG4Cp6zcCg/hqdefault.jpg");
+}
+
+.bg-0-0-9 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Dinoswords_ProductHunt_GalleryImage2_v1-1.png");
 }
 
 .gradient {
@@ -801,10 +833,6 @@ header {
   );
   bottom: 0;
   left: 0;
-}
-
-.related {
-  height: 750px;
 }
 
 .related-bg {
@@ -847,7 +875,6 @@ header {
 }
 
 .middle-item {
-  padding: 15px 0 15px 15px;
   flex-direction: column;
   border-bottom: 1px solid rgba(187, 184, 184, 0.404);
 }
@@ -863,12 +890,18 @@ header {
 
   .related {
     width: 96%;
+    height: 720px;
+  }
+
+  .middle-item {
+    padding: 8px 0 8px 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .related {
     width: 48%;
+    height: 750px;
   }
 
   .related-bg {
@@ -877,6 +910,10 @@ header {
 
   .related-article {
     justify-content: space-between;
+  }
+
+  .middle-item {
+    padding: 12px 0 12px 15px;
   }
 }
 
@@ -893,6 +930,10 @@ header {
 
   .related-bg {
     height: 35%;
+  }
+
+  .middle-item {
+    padding: 15px 0 15px 15px;
   }
 }
 
