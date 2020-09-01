@@ -400,6 +400,11 @@ header {
     min-width: 260px;
   }
 
+  .tnw-logo{
+    height: 20%;
+    padding-left: 8px;
+  }
+
 }
 
 /* ----------------------------  (SM to LG)  -------------------------------- */
@@ -418,8 +423,6 @@ header {
 
 
 @media screen and (max-width: 1023px) {
-  .logo {
-  }
 
   .navbars {
     width: calc(100% - 106px);
