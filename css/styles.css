@@ -37,6 +37,10 @@
   padding-left: 15px;
 }
 
+.pad-left-10 {
+  padding-left: 10px;
+}
+
 .pad-right-15 {
   padding-right: 15px;
 }
@@ -695,6 +699,10 @@ header {
   color: black;
 }
 
+.min-w60 {
+  min-width: 60%;
+}
+
 /* ----------------------------  Media Queries  -------------------------------- */
 
 /* ----------------------------  Mobile (XS to SM)  -------------------------------- */
@@ -720,7 +728,7 @@ header {
   }
 
   .more-info {
-    max-width: 40%;
+    min-width: 40%;
     flex-direction: row;
   }
 
@@ -748,9 +756,13 @@ header {
     width: 23%;
   }
 
-  .latest-news {
+  .latest-new {
     display: flex;
     justify-content: space-between;
+  }
+
+  .more-info {
+    justify-content: flex-end;
   }
 }
 
