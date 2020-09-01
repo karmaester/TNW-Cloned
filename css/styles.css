@@ -476,10 +476,6 @@ header {
     display: none;
   }
 
-  .navbars {
-    width: 100%;
-  }
-
   .big-header {
     height: 110px;
   }
@@ -539,13 +535,12 @@ header {
 
 .gradient-logo {
   background: rgb(204, 0, 153);
-  background:
-    linear-gradient(
-      170deg,
-      rgba(204, 0, 153, 1) 0%,
-      rgba(255, 68, 34, 0.8522759445575105) 26%,
-      rgba(29, 29, 50, 0.5777661406359419) 91%
-    );
+  background: linear-gradient(
+    170deg,
+    rgba(204, 0, 153, 1) 0%,
+    rgba(255, 68, 34, 0.8522759445575105) 26%,
+    rgba(29, 29, 50, 0.5777661406359419) 91%
+  );
 }
 
 .main-logo img {
@@ -653,7 +648,7 @@ header {
 
 .bg {
   height: 60%;
-  width: 100%;
+  width: 99%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -702,11 +697,11 @@ header {
   }
 
   .item-2 {
-    width: 100%;
+    width: 99%;
   }
 
   .item-3 {
-    width: 100%;
+    width: 98%;
   }
 }
 
@@ -750,7 +745,7 @@ header {
 
 @media screen and (max-width: 767px) {
   .funding-li {
-    width: 100%;
+    width: 99%;
     height: 235px;
   }
 
@@ -878,20 +873,18 @@ header {
 
 .gradient {
   background: rgb(2, 0, 36);
-  background:
-    linear-gradient(
-      0deg,
-      rgba(2, 0, 36, 0.9587185215883228) 21%,
-      rgba(3, 6, 6, 0.42930675688244047) 57%,
-      rgba(29, 29, 50, 0.5777661406359419) 91%
-    );
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 0.9587185215883228) 21%,
+    rgba(3, 6, 6, 0.42930675688244047) 57%,
+    rgba(29, 29, 50, 0.5777661406359419) 91%
+  );
   bottom: 0;
   left: 0;
 }
 
 .related-bg {
   height: 60%;
-  width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
