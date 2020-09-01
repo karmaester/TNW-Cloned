@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Visual Hierarchy
+# TNW Cloned
 
 > Made as the sixth HTML/CSS project in the Microverse curriculum as a practice for web responsiveness.
 
