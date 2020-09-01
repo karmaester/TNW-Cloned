@@ -259,7 +259,11 @@
 }
 
 .bg-softsalmon {
-  background-color: rgba(255,68,34,.08);
+  background-color: rgba(255, 68, 34, 0.08);
+}
+
+.bg-l-salmon {
+  background-color: rgba(255, 68, 34, 0.06);
 }
 
 /* ----------------------------  Colors  -------------------------------- */
@@ -284,10 +288,18 @@
   color: black;
 }
 
+.red {
+  color: #f42;
+}
+
 /* ----------------------------  Margins  -------------------------------- */
 
 .ml-30 {
   margin-left: 30%;
+}
+
+.ml-10 {
+  margin-left: 10px;
 }
 
 /* ----------------------------  Styles  -------------------------------- */
@@ -299,6 +311,11 @@
 
 .bold {
   font-weight: bold;
+}
+
+.hard {
+  font-weight: 900;
+  margin: 20px auto 20px auto;
 }
 
 .btn {
@@ -662,10 +679,23 @@ header {
   padding: 10.5px 16px 10.5px 84px;
 }
 
+.middle li a {
+  text-decoration: none;
+}
+
+.middle li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: red; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
 .middle-item {
-  padding: 22px 0 22px 15px;
+  padding: 15px 0 15px 15px;
   flex-direction: column;
-  border-bottom: 1px solid salmon;
+  border-bottom: 1px solid rgb(187, 184, 184);
 }
 
 .last-item {
@@ -679,7 +709,6 @@ header {
 .latest-funding-title:hover {
   color: black;
 }
-
 
 /* ----------------------------  Media Queries  -------------------------------- */
 
