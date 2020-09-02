@@ -316,6 +316,10 @@
   column-gap: 37px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .style-none {
   list-style: none;
   text-decoration: none;
@@ -1082,4 +1086,11 @@ footer {
 
 .legal img {
   height: 11px;
+}
+
+@media screen and (max-width: 767px) {
+  .social li {
+    margin: auto 1px 25px 5px;
+    font-size: 18px;
+  }
 }
