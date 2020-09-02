@@ -532,12 +532,13 @@ header {
 
 .gradient-logo {
   background: rgb(204, 0, 153);
-  background: linear-gradient(
-    170deg,
-    rgba(204, 0, 153, 1) 0%,
-    rgba(255, 68, 34, 0.8522759445575105) 26%,
-    rgba(29, 29, 50, 0.5777661406359419) 91%
-  );
+  background:
+    linear-gradient(
+      170deg,
+      rgba(204, 0, 153, 1) 0%,
+      rgba(255, 68, 34, 0.8522759445575105) 26%,
+      rgba(29, 29, 50, 0.5777661406359419) 91%
+    );
 }
 
 .main-logo img {
@@ -865,12 +866,13 @@ header {
 
 .gradient {
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    0deg,
-    rgba(2, 0, 36, 0.9587185215883228) 21%,
-    rgba(3, 6, 6, 0.42930675688244047) 57%,
-    rgba(29, 29, 50, 0.5777661406359419) 91%
-  );
+  background:
+    linear-gradient(
+      0deg,
+      rgba(2, 0, 36, 0.9587185215883228) 21%,
+      rgba(3, 6, 6, 0.42930675688244047) 57%,
+      rgba(29, 29, 50, 0.5777661406359419) 91%
+    );
   bottom: 0;
   left: 0;
 }
