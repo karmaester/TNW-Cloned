@@ -403,6 +403,7 @@ header {
 
   .tickets {
     height: 60px;
+    text-align: center;
   }
 
   .tnw-logo {
@@ -417,7 +418,7 @@ header {
 
   .tickets {
     height: 30px;
-    width: 60%;
+    width: 76%;
     justify-content: flex-start;
   }
 
