@@ -394,11 +394,7 @@ header {
 /* ----------------------------  Mobile (XS to SM)  -------------------------------- */
 
 @media screen and (max-width: 767px) {
-  .desk-nav {
-    display: none;
-  }
-
-  .black-navbar {
+  .go-away-small {
     display: none;
   }
 
@@ -456,10 +452,6 @@ header {
     margin: 0 auto;
   }
 
-  .hide {
-    display: none;
-  }
-
   .search {
     justify-content: flex-end;
   }
@@ -468,10 +460,6 @@ header {
 @media screen and (max-width: 1023px) {
   .navbars {
     width: calc(100% - 106px);
-  }
-
-  .gradient-logo {
-    display: none;
   }
 }
 
@@ -682,11 +670,6 @@ header {
 
   .news-li {
     margin-bottom: 25px;
-  }
-
-  .discount,
-  .disc {
-    display: none;
   }
 }
 
