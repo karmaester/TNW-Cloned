@@ -313,7 +313,7 @@
 /* ----------------------------  Styles  -------------------------------- */
 
 .gap {
-  gap: 35px;
+  column-gap: 37px;
 }
 
 .style-none {
@@ -595,7 +595,11 @@ header {
   }
 
   .main-title {
-    font-size: 50px;
+    font-size: 56px;
+  }
+
+  .title-cover {
+    font-size: 28px;
   }
 }
 
@@ -1007,10 +1011,6 @@ header {
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-}
-
-.deals-li {
-  margin: auto 15px 25px 15px;
 }
 
 /* ----------------------------  Media Queries  -------------------------------- */
