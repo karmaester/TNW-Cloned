@@ -607,7 +607,11 @@ header {
   }
 
   .main-title {
-    font-size: 50px;
+    font-size: 56px;
+  }
+
+  .title-cover {
+    font-size: 28px;
   }
 }
 
