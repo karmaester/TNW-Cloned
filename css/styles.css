@@ -361,14 +361,8 @@ header {
   border: 0;
 }
 
-.dropdown-content {
+.d-none {
   display: none;
-  width: 200px;
-  height: 50px;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
 }
 
 .color-change:hover {
@@ -400,6 +394,7 @@ header {
 
   .mobile-nav {
     justify-content: flex-end;
+    display: inherit;
   }
 
   .tickets {
@@ -412,10 +407,6 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-  .mobile-nav {
-    display: none;
-  }
-
   .logo {
     height: 80px;
   }
@@ -442,6 +433,15 @@ header {
     height: 20%;
     padding-left: 8px;
   }
+
+  .dropdown-content {
+    width: 200px;
+    height: 50px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 }
 
 /* ----------------------------  (SM to LG)  -------------------------------- */
@@ -461,13 +461,13 @@ header {
   .navbars {
     width: calc(100% - 106px);
   }
+
+  .logo {
+    display: inherit;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  .logo {
-    display: none;
-  }
-
   .big-header {
     height: 110px;
   }
